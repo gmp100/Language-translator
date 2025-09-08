@@ -1,0 +1,41 @@
+export const languages = [
+    { code: 'auto', name: 'Detect Language' },
+    { code: 'en', name: 'English' },
+    { code: 'hi', name: 'Hindi' },
+    { code: 'mr', name: 'marathi' },
+    { code: 'fr', name: 'French' },
+    { code: 'de', name: 'German' },
+    { code: 'it', name: 'Italian' },
+    { code: 'pt', name: 'Portuguese' },
+    { code: 'ru', name: 'Russian' },
+    { code: 'ja', name: 'Japanese' },
+    { code: 'ko', name: 'Korean' },
+    { code: 'zh', name: 'Chinese' },
+    { code: 'ar', name: 'Arabic' },
+    { code: 'es', name: 'Spanish' },
+    { code: 'th', name: 'Thai' },
+    { code: 'vi', name: 'Vietnamese' },
+    { code: 'nl', name: 'Dutch' },
+    { code: 'pl', name: 'Polish' },
+    { code: 'tr', name: 'Turkish' },
+    { code: 'sv', name: 'Swedish' },
+    { code: 'da', name: 'Danish' },
+    { code: 'no', name: 'Norwegian' },
+    { code: 'fi', name: 'Finnish' },
+    { code: 'cs', name: 'Czech' },
+    { code: 'sk', name: 'Slovak' },
+    { code: 'hu', name: 'Hungarian' },
+    { code: 'ro', name: 'Romanian' },
+    { code: 'bg', name: 'Bulgarian' },
+    { code: 'hr', name: 'Croatian' },
+    { code: 'et', name: 'Estonian' },
+    { code: 'lv', name: 'Latvian' },
+    { code: 'lt', name: 'Lithuanian' },
+    { code: 'sl', name: 'Slovenian' },
+    { code: 'ga', name: 'Irish' },
+    { code: 'mt', name: 'Maltese' }
+];
+
+export const getLanguageByCode = (code) => {
+    return languages.find(lang => lang.code === code);
+};
